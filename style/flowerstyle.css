@@ -4,11 +4,13 @@ header {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     height: 850px;
+    justify-content: space-between;
+    padding-right: 200px;
 
 }
 
 header>img {
-    width: 635px;
+    /* width: 635px; */
     height: 800px;
     flex-shrink: 0;
 
