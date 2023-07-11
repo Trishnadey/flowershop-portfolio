@@ -1,11 +1,12 @@
 /* header section style */
+/* *width: 3020px; */
 header{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     height: 850px;
-    width: 1920px;
+    
 }
-img{
+header > img{
     width: 635px;
 height: 800px;
 flex-shrink: 0;
@@ -36,6 +37,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+width: 635px;
 }
 .header-btn{
     margin-left: 240px;
@@ -45,4 +47,28 @@ display: inline-flex;
 padding: 20px 43px;
 align-items: flex-start;
 gap: 10px
+}
+
+/* main part */
+.mainpart1{
+margin-left: 240px;
+margin-right: 240px;
+margin-top: 178px;
+}
+.mainpart1-heading{
+    text-align: center;
+}
+ul{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+li{
+    width: 464px;
+height: 538px;
+/* flex-shrink: 0; */
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+margin: 24px;
+align-content: space-between;
 }
