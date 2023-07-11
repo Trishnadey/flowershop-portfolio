@@ -58,17 +58,42 @@ margin-top: 178px;
 .mainpart1-heading{
     text-align: center;
 }
-ul{
+.flower-list{
+    list-style: none;
     display: flex; 
     justify-content: center;
     align-items: center;
+    
 }
-li{
+.flower-list li{
+    text-align: center;
+
     width: 464px;
 height: 538px;
 /* flex-shrink: 0; */
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
 margin: 24px;
-align-content: space-between;
+
+}
+.flower-list li img{
+    text-align: center;
+    max-width: 100%;
+    height: auto;  
+}
+
+/* for 2nd section of deal  */
+.deal{
+    margin: 240px;
+    /* width: 1440px;
+height: 320px; */
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+
+}
+
+.deal ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
